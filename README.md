@@ -2,7 +2,7 @@
 
 
 > **Curriculum Dataset Distillation** <br>
-<a>Zhiheng Ma *</a>,</span> <a>Anjia Cao *</a>,</span> <a>Funing Yang</a>,</span> <a>Yihong Gong</a>,</span> <a>Xing Wei</a>
+<a>Zhiheng Ma*</a>,</span> <a>Anjia Cao*</a>,</span> <a>Funing Yang</a>,</span> <a>Yihong Gong</a>,</span> <a>Xing Wei</a>
 
 ## Distilled Datasets
 [Hugging Face Link for ImageNet-21K, ImageNet-1K, Tiny-ImageNet, CIFAR100, and CIFAR10](https://huggingface.co/datasets/caj/CUDD)
