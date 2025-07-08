@@ -31,3 +31,15 @@ python -u generate_soft_label.py -a resnet18 -b 128 -j 8 --epochs {300 for evalu
 cd training
 python -u train_FKD.py --batch-size 128 --model resnet18 --cos -j 4 --gradient-accumulation-steps 1 -T 20 --student-dir {None for evaluation or student-path for curriculum training} --output-dir ./student_adv/in1k_ipc_50_rn18 --train-dir ../distill/syn_data/in1k_ipc_50 --val-dir {path-to-in1k-val} --fkd-path ../relabel/syn_label/in1k_ipc_50 > logs/in1k_ipc_50_rn18.log 2>&1 &
 ```
+
+## Citation
+If you find our work helpful for your research, please consider giving a star and citation.
+```bibtex
+@article{ma2025curriculum,
+  title={Curriculum dataset distillation},
+  author={Ma, Zhiheng and Cao, Anjia and Yang, Funing and Gong, Yihong and Wei, Xing},
+  journal={IEEE Transactions on Image Processing},
+  year={2025},
+  publisher={IEEE}
+}
+```
